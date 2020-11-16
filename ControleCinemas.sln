@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCinemas.Business", "src\ControleCinemas.Business\ControleCinemas.Business.csproj", "{5E8E2367-87D1-463B-8E17-E527B21FA60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCinemas.Api", "src\ControleCinemas.Api\ControleCinemas.Api.csproj", "{D8258B8B-9084-48E4-9F77-1849FD016C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCinemas.Data", "src\ControleCinemas.Data\ControleCinemas.Data.csproj", "{D4DF4413-18A8-41AF-9B50-A166CF16F596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8E2367-87D1-463B-8E17-E527B21FA60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8E2367-87D1-463B-8E17-E527B21FA60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8E2367-87D1-463B-8E17-E527B21FA60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8E2367-87D1-463B-8E17-E527B21FA60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8258B8B-9084-48E4-9F77-1849FD016C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8258B8B-9084-48E4-9F77-1849FD016C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8258B8B-9084-48E4-9F77-1849FD016C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8258B8B-9084-48E4-9F77-1849FD016C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DF4413-18A8-41AF-9B50-A166CF16F596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DF4413-18A8-41AF-9B50-A166CF16F596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DF4413-18A8-41AF-9B50-A166CF16F596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DF4413-18A8-41AF-9B50-A166CF16F596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F5BF58-A295-4585-90AD-E56BB43C8A8F}
+	EndGlobalSection
+EndGlobal

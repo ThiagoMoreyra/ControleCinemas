@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qGW5INhRKRB9xyT3NEMpmmlsJGTy3S8D21Chy2Vzmy+gRGoPIYQaVP/yvQJVFAfu1bCLfvCOsuN2yTEYvWDAtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

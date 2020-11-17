@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGW5INhRKRB9xyT3NEMpmmlsJGTy3S8D21Chy2Vzmy+gRGoPIYQaVP/yvQJVFAfu1bCLfvCOsuN2yTEYvWDAtQ==",
+  "dgSpecHash": "m3uzjwWWTi+D3bl7x2lOmECM8UDdn/1T2f4b/HdciJMVR/usMhTs7U9rdgYK1OJXvPVHOSO0ZGmaWJkJFPhB4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+  "projectFilePath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512"
   ],

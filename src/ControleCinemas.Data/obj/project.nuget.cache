@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P6EIkWKMTL1F5jErkXrWrlQXL2z+sp4WTyRZ3wg6D1+fwo1P4GjBQxr/M28EWsMt1/WXsKezwr7z1VvNZTFYmw==",
+  "dgSpecHash": "2CgLmGpDkOmwSPELjPksZCJ98kmEDBQ5QF1RZ2FlHY7NgBwpz+x13tC+I7jIrCQV1YoOx7E5Rb/rZQpll1+eLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
+  "projectFilePath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

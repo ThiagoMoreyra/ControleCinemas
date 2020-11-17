@@ -42,11 +42,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+      "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
       "projectName": "ControleCinemas.Business",
-      "projectPath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+      "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
+      "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,6 +65,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -76,6 +77,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentValidation": {
             "target": "Package",
@@ -97,7 +99,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

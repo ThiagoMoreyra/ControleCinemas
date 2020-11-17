@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3aVFX0GPl3xmrW21dlH5XC3gnFDewI+44TQbb59tuPnbbjpgK3dYwFm9f3xGgxgpw50T3Avb7tZ/ePRpwaFZQ==",
+  "dgSpecHash": "eQLpP3lDIAlkSvFS7/QEpETLgZIM+ylA0O1PX7cZyih4a9vjxrL2T6dV70Y8U9Ajngf4axNFYsXNAv7rFZ+77g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\source\\repos\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
+  "projectFilePath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\3.1.1\\aspnetcore.healthchecks.sqlserver.3.1.1.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\aspnetcore.healthchecks.ui\\3.1.0\\aspnetcore.healthchecks.ui.3.1.0.nupkg.sha512",

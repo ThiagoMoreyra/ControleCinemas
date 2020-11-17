@@ -7,3 +7,12 @@ C:\Users\thiag\source\repos\ControleCinemas\src\ControleCinemas.Business\obj\Deb
 C:\Users\thiag\source\repos\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.dll
 C:\Users\thiag\source\repos\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.pdb
 C:\Users\thiag\source\repos\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.csproj.CoreCompileInputs.cache
+C:\repo\ControleCinemas\src\ControleCinemas.Business\bin\Debug\netcoreapp3.1\ControleCinemas.Business.deps.json
+C:\repo\ControleCinemas\src\ControleCinemas.Business\bin\Debug\netcoreapp3.1\ControleCinemas.Business.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Business\bin\Debug\netcoreapp3.1\ControleCinemas.Business.pdb
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.csprojAssemblyReference.cache
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.AssemblyInfoInputs.cache
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.AssemblyInfo.cs
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.csproj.CoreCompileInputs.cache
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Business\obj\Debug\netcoreapp3.1\ControleCinemas.Business.pdb

@@ -31,10 +31,7 @@ namespace ControleCinemas.Api
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CinemaDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            });
+            services.AddDbContext<CinemaDbContext>(opt => opt.UseInMemoryDatabase("ControleCinemas"));
 
             services.AddAutoMapper(typeof(Startup));
 

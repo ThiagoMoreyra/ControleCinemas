@@ -9,6 +9,8 @@ namespace ControleCinemas.Data.Context
 {
     public class CinemaDbContext : DbContext
     {
+        public CinemaDbContext(DbContextOptions<CinemaDbContext> options)
+        : base(options) { }
         public DbSet<Ator> Atores { get; set; }
         public DbSet<Cinema> Cinemas { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }

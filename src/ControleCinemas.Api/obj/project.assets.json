@@ -458,6 +458,18 @@
           "build/netcoreapp2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.4": {
         "type": "package",
         "dependencies": {
@@ -3541,6 +3553,20 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.3.1.3.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.4": {
+      "sha512": "HoOvn+DANGv6g/O4KUuKUoEvu3arpw5utDuWyFOBxnbluAbVU/cfoSvEVVBsZ+/C4L7WWEqBwItUmlf35vZKCQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.3.1.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.4": {
@@ -9028,6 +9054,7 @@
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 4.1.1",
       "Microsoft.EntityFrameworkCore >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Abstractions >= 3.1.4",
+      "Microsoft.EntityFrameworkCore.InMemory >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.4",
       "Microsoft.Extensions.Diagnostics.HealthChecks >= 3.1.4",
@@ -9043,11 +9070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
+      "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
       "projectName": "ControleCinemas.Api",
-      "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
+      "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\obj\\",
+      "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9068,11 +9095,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
-              "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
+            "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+              "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
             },
-            "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
-              "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj"
+            "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
+              "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj"
             }
           }
         }
@@ -9132,6 +9159,10 @@
             "version": "[3.1.4, )"
           },
           "Microsoft.EntityFrameworkCore.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[3.1.4, )"
           },

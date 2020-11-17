@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {}
+    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {}
   },
   "projects": {
-    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "projectName": "ControleCinemas.Business",
-        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
+        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
+    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
+        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
         "projectName": "ControleCinemas.Data",
-        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
+        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\obj\\",
+        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -96,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
-                "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
+              "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+                "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
               }
             }
           }

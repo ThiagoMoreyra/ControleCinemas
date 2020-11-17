@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {}
+    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {}
   },
   "projects": {
-    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "projectName": "ControleCinemas.Business",
-        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
+        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

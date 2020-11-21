@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj": {}
+    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj": {}
   },
   "projects": {
-    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj": {
+    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
+        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
         "projectName": "ControleCinemas.Api",
-        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
+        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\ControleCinemas.Api.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\obj\\",
+        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
-                "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
+              "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+                "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
               },
-              "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
-                "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj"
+              "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
+                "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj"
               }
             }
           }
@@ -111,6 +111,10 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -121,7 +125,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.4.1, )"
+              "version": "[5.0.0-rc5, )"
             },
             "aspnetcore.healthchecks.ui": {
               "target": "Package",
@@ -150,14 +154,14 @@
         }
       }
     },
-    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "projectName": "ControleCinemas.Business",
-        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
+        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
+        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -214,14 +218,14 @@
         }
       }
     },
-    "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
+    "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
+        "projectUniqueName": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
         "projectName": "ControleCinemas.Data",
-        "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
+        "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\ControleCinemas.Data.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\obj\\",
+        "outputPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -242,8 +246,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
-                "projectPath": "C:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
+              "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj": {
+                "projectPath": "c:\\repo\\ControleCinemas\\src\\ControleCinemas.Business\\ControleCinemas.Business.csproj"
               }
             }
           }

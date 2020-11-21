@@ -173,6 +173,9 @@ C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsof
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -180,6 +183,8 @@ C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsof
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
 C:\repo\ControleCinemas\src\ControleCinemas.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll

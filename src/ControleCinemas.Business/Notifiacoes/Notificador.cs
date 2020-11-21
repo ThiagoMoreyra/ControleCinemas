@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ControleCinemas.Business.Interfaces;
 
 namespace ControleCinemas.Business.Notifiacoes
 {
-    public class Notificador
+    public class Notificador : INotificador
     {
         public List<Notificacao> _notificacoes { get; set; }
 

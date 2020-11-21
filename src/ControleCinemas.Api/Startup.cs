@@ -4,10 +4,13 @@ using ControleCinemas.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Linq;
 
 namespace ControleCinemas.Api
 {
@@ -31,26 +34,54 @@ namespace ControleCinemas.Api
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CinemaDbContext>(opt => opt.UseInMemoryDatabase("ControleCinemas"));
+            services.AddCors();
+            services.AddResponseCompression(options =>
+            {
+                options.Providers.Add<GzipCompressionProvider>();
+                options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/json" });
+            });
 
-            services.AddAutoMapper(typeof(Startup));
+            services.AddControllers(); //como não tem view, ele adiciona somente os controllers
 
-            services.AddApiConfig();
+            services.AddDbContext<CinemaDbContext>(opt => opt.UseInMemoryDatabase("ControleCinema"));
+            //services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
-            services.AddSwaggerConfig();
-
-            services.AddLoggingConfig(Configuration);
-
-            services.ResolveDependencies();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Api - Controle de Cinemas", Version = "v1" });
+            });
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseApiConfig(env);
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
-            app.UseSwaggerConfig(provider);
+            app.UseHttpsRedirection();
 
-            app.UseLoggingConfiguration();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+            });
+
+            app.UseRouting();
+
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
+            app.UseAuthorization();
+
+            //app.UseAuthentication();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }
